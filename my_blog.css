@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    overflow: scroll;
+}
+headr{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin: 0;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+    background: #313842;
+    line-height: 48px;
+}
+#TopDiv{
+    float: left;
+    margin-left: 60px;
+}
+#logo{
+    font-size: 22px;
+    color: #FFF;
+    margin-left: 20px;
+    float: left;
+    width: 300px;
+}
+#TopSelect{
+    font:20px verdana, arial, sans-serif;
+}
+#TopSelect,#TopSelect li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    right: 0px;
+}
+#TopSelect li{
+    float:left;
+}
+#TopSelect li a{
+    display: block;
+    width:100px;
+    height:34px;
+    line-height:30px;
+    text-align:center;
+    padding:8px 50px;
+    color:white;
+    text-decoration:none;
+}
+#TopSelect li a:hover{
+    background:#146C9C;
+    color:#fff;
+    text-decoration:none;
+    border-right:1px solid #000;
+    border-radius: 20px;
+}
+#search {
+    background: #FFF;
+    overflow: hidden;
+    width: 260px;
+    float: right;
+    margin: 10px 30px 0 0;
+    border-radius: 20px;
+}
+#keyboard{
+    padding-left: 5px;
+    float: left;
+    outline: none;
+    border: 0;
+    height: 30px;
+    line-height: 30px;
+}
+#mySelf{
+    position: absolute;
+    top: 48px;
+    left:0;
+    width: 15%;
+    height: 2000px;
+    background-color:antiquewhite;
+    border:3px solid black;
+    text-align: center;
+}
+#headPic{
+    width: 100px;
+    height: 100px;
+}
+#introduceHead{
+    color: #a643ff;
+    font-size: 20px;
+}
+#introduce{
+    width:250px;
+    height: 300px;
+    position: absolute;
+    top:170px;
+    left:15px;
+    background-color: gray;
+    border-radius: 10px;
+}
+#skillList li{
+    list-style: none;
+}
+#skillList b{
+    color: #ff652d;
+}
+#levelTwo{
+    width: 250px;
+    height: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    top:500px;
+    left:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid blue;
+}
+#levelTwo>ul>li{
+    list-style: none;
+    height: 30px;
+    width: 250px;
+    line-height: 30px;
+    background:lightblue;
+}
+#levelTwo>ul>li{
+    float: left;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+#secondMenu1,#secondMenu2{
+    display: none;
+}
+#secondMenu1{
+    list-style: none;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left:250px;
+    top:0;
+    z-index: 1;
+}
+#secondMenu2{
+    list-style: none;;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top:0;
+    left:250px;
+    z-index: 1;
+}
+#secondMenu1 li,#secondMenu2 li{
+    background-color: rgb(231, 125, 125);
+}
+#levelTwo>ul>li:hover ul{
+    display: block;
+}
+
+#textAll{
+    position: absolute;
+    width: 84.5%;
+    height: 2000px;
+    right: 0;
+    top:48px;
+    background-color:gray;
+    border: 2px solid black;
+}
+#para1{
+    border: 1px solid gray;
+    width: 1560px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    top:50px;
+    left:20px;
+    border-radius: 10px;
+}
+.smallPart{
+    border:1px solid gray;
+    width: 500px;
+    height: 300px;
+    background: aliceblue;
+    transition: 500ms;
+    border-radius: 20px;
+    z-index: 0;
+}
+.smallPart:hover{/*鼠标悬停放大*/
+    width: 520px;
+    height: 320px;
+    margin:-10px 0 0 -10px;
+    border-radius: 20px;
+}
+#para2{
+    position: absolute;
+    top:150px;
+    left:20px;
+}
+#para3{
+    position: absolute;
+    top:150px;
+    left:540px;
+}
+#para4{
+    position: absolute;
+    top:150px;
+    left:1060px;
+}
+#para5{
+    position:absolute;
+    top:500px;
+    left:20px;
+}
+#para6{
+    position: absolute;
+    top:500px;
+    left:540px;
+}
+#para7{
+    position: absolute;
+    top:500px;
+    left:1060px;
+}
+
